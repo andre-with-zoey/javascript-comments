@@ -1,0 +1,31 @@
+
+<!-- dit is een aangeleverd bestand van me school -->
+
+<html lang="en-US">
+<head>
+    <title>My Frontend Framework</title>
+    <style type="text/css">
+        #container {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div class="form">
+        <h2>Form</h2>
+        <form>
+            <label>Firstname<input bit-data="firstname"></label>
+
+            <label>Lastname<input bit-data="lastname"></label>
+        </form>
+        <div bit-data-bind="firstname"></div>
+        <div bit-data-bind="lastname"></div>
+        <div bit-data-bind="timer"></div>
+
+        <a href="#about">To the about page</a>
+    </div>
+</div>
+<script src="frontend-framework.js"></script>
+</body>
+</html>
